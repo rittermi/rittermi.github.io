@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+button {
+    background: transparent;
+    border: none !important;
+  	color: white;
+    font-size: 15pt;
+    font-family: calibri;
+}
+
+button:hover {
+text-shadow: 1px 1px 2px yellow, 0 0 25px yellow, 0 0 5px white;
+background-color: transparent;
+border: none;
+color: white;
+font-size: 18pt;
+font-family: calibri;
+}
+
