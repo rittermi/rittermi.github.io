@@ -32,7 +32,7 @@ function setup() {
   
   // bg button
   color_button = createButton("Change Background");
-  color_button.position(15,20);
+  color_button.position(15,100);
   color_button.mouseClicked(change_background);
   
   // input button
@@ -43,6 +43,15 @@ function setup() {
   button = createButton('Choose Your Future');
   button.position(input.x + input.width, 65);
   button.mousePressed(change_secret);
+  
+  otherbutton = createButton('Resources');
+  otherbutton.position(15, 20);
+otherbutton.mousePressed(openUp);
+
+  }
+
+function openUp() {
+window.open('https://github.com/rittermi/rittermi.github.io')
 }
 
 function draw() {
